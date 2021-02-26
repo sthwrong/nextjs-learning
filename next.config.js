@@ -4,8 +4,8 @@ require("dotenv").config({
     debug: true
 });
 
-// module.exports = {
-//   env: {
-//     CHECK_ENV: process.env.NEXT_PUBLIC_CHECK_ENV,
-//   },
-// };
+module.exports = {
+  env: {
+    NEXT_ENV: process.env.NEXT_ENV,
+  },
+};
