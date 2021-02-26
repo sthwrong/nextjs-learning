@@ -1,6 +1,7 @@
 require("dotenv").config({
   path:
     `./env/.env.${process.env.NEXT_ENV}`,
+    debug: true
 });
 
 module.exports = {
