@@ -6,6 +6,8 @@ export default function Home() {
     <div className={styles.container}>
       <h1>process.env.NODE_ENV {process.env.NODE_ENV}</h1>
       <h1>process.env.CUSTOM {process.env.CUSTOM}</h1>
+      <h1>process.env.CHECK_ENV {process.env.NEXT_PUBLIC_CHECK_ENV}</h1>
+      <h1>process.env.NEXT_ENV {process.env.NEXT_ENV}</h1>
     </div>
   )
 }
