@@ -3,5 +3,16 @@
   "description": "SSR",
   "env": {
     "HIEP_TEST_ENV": "hiep"
-  }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }

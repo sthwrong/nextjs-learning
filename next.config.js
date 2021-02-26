@@ -7,5 +7,6 @@ require("dotenv").config({
 module.exports = {
   env: {
     NEXT_ENV: process.env.NEXT_ENV,
+    HIEP_TEST_ENV: process.env.HIEP_TEST_ENV,
   },
 };
