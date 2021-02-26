@@ -1,6 +1,6 @@
 require("dotenv").config({
   path:
-    `./env.${process.env.NEXT_ENV}`,
+    `./env/.env.${process.env.NEXT_ENV}`,
 });
 
 module.exports = {
