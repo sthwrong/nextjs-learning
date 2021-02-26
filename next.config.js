@@ -1,12 +1,12 @@
+const ENV = process.env.NEXT_ENV ? process.env.NEXT_ENV : "development";
+
 require("dotenv").config({
   path:
-    `./env/.env.${process.env.NEXT_ENV.toLowerCase()}`,
-    debug: true
+    ENV === "production" ? "env/.env.production" : "env/.env.development",
 });
 
 module.exports = {
   env: {
-    NEXT_ENV: process.env.NEXT_ENV,
-    HIEP_TEST_ENV: process.env.HIEP_TEST_ENV,
+    NEXT_ENV: ENV,
   },
 };
