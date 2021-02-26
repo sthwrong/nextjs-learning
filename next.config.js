@@ -1,5 +1,10 @@
+require("dotenv").config({
+  path:
+    `./env.${process.env.NEXT_ENV}`,
+});
+
 module.exports = {
   env: {
-    NEXT_ENV: process.env.NEXT_ENV,
+    CHECK_ENV: process.env.NEXT_PUBLIC_CHECK_ENV,
   },
 };
