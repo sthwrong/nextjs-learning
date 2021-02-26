@@ -1,11 +1,7 @@
 {
   "name": "Learning SSR with NextJS",
   "description": "SSR",
-  "enviroments": {
-    "review": {
-      "env": {
-        "CUSTOM": "hiepp"
-      }
-    }
+  "env": {
+    "HIEP_TEST_ENV": "hiep"
   }
 }
