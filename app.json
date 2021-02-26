@@ -8,7 +8,11 @@
     }
   },
   "environments": {
-    "HIEP_TEST_ENV": "hiep"
+    "review": {
+      "env": {
+        "HIEP_TEST_ENV": "hiep"
+      }
+    }
   },
   "addons": [],
   "buildpacks": [
