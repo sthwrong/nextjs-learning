@@ -7,13 +7,6 @@
       "quantity": 1
     }
   },
-  "environments": {
-    "review": {
-      "env": {
-        "HIEP_TEST_ENV": "hiep"
-      }
-    }
-  },
   "addons": [],
   "buildpacks": [
     {
