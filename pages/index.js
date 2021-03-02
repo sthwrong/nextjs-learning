@@ -9,7 +9,7 @@ export default function Home() {
       <h1>process.env.NEXT_PUBLIC_CHECK_ENV {process.env.NEXT_PUBLIC_CHECK_ENV}</h1>
       <h1>process.env.NEXT_ENV {process.env.NEXT_ENV}</h1>
       <h1>process.env.HIEP_TEST_ENV {process.env.HIEP_TEST_ENV}</h1>
-      Test config vars
+      Compare config vars
     </div>
   )
 }
