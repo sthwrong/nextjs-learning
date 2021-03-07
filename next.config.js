@@ -1,6 +1,6 @@
 require("dotenv").config({
   path:
-    `./env/.env.${process.env.NEXT_ENV.toLowerCase()}`,
+    `./env/.env.${process.env.NEXT_ENV}`,
     debug: true
 });
 
