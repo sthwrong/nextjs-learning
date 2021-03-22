@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 export default function Home () {
-  return <p>Home</p>
+  return <div><p>Test</p><Button /></div>
 }
